@@ -61,7 +61,7 @@ if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
 
-# refactor ingest into function
+
 # create test for ingest function
 # implement Jenkins
 
