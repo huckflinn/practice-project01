@@ -9,11 +9,7 @@ logging.basicConfig(
     datefmt = "%Y-%m-%d %H:%M"
 )
 
-def extract_data(
-        filepath,
-        delimiter = ",",
-        encoding = "utf-8"
-):
+def extract_data(filepath):
     logging.info("Beginning execution...")
     logging.info("Ingesting data...")
 
@@ -60,14 +56,3 @@ def main():
 if __name__ == "__main__":
     exit_code = main()
     sys.exit(exit_code)
-
-
-# create test for ingest function
-# implement Jenkins
-
-
-
-### INSIGHTS ###
-# Could calculate busiest days?
-# Could calculate tip percentage based on trip duration or whether to airport?
-# Could calculate tip based on number of passengers?
