@@ -9,11 +9,7 @@ logging.basicConfig(
     datefmt = "%Y-%m-%d %H:%M"
 )
 
-def extract_data(
-        filepath,
-        delimiter = ",",
-        encoding = "utf-8"
-):
+def extract_data(filepath):
     logging.info("Beginning execution...")
     logging.info("Ingesting data...")
 
