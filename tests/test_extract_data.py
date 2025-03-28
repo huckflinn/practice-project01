@@ -28,3 +28,7 @@ class TestExtraction(unittest.TestCase):
 
         with self.assertRaises(FileNotFoundError):
             extract_data(fake_file)
+
+        
+if __name__ == "__main__":
+    unittest.main()
